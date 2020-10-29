@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Photo Gallery</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Grids">Grid view</a></li>
+            <li><a href="#slides">Slide view</a></li>
+        </ul>
+    </div>
+
+</nav>
+
+<body>
+
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img1" src="https://www.soda.com/wp-content/uploads/2020/04/harry-potter-streaming-guide-600x361.jpg" class="img-responsive">
+            </div>
+        </section>
+        <!>
+            <hr style="width: 100%;">
+            <section id="Grids">
+                <h2> Grid gallery</h2>
+                <br>
+                <script src=""></script>
+                <div class="row">
+                    <img class="img2" src="https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg">
+                    <img class="img2" src="https://images-na.ssl-images-amazon.com/images/I/91HHqVTAJQL.jpg">
+                    <img class="img2" src="https://images-na.ssl-images-amazon.com/images/I/51t55KcM8pL._SX332_BO1,204,203,200_.jpg">
+                    <img class="img2" src="https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg">
+                    <br><br>
+                </div>
+                <div class="row">
+                    <img class="img2" src="https://hpmedia.bloomsbury.com/rep/s/9781408855690_309036.jpeg">
+                    <img class="img2" src="https://static.wikia.nocookie.net/cour-de-cassation/images/9/95/Half-Blood_Prince_new_cover.jpg/revision/latest?cb=20190704081018">
+                    <img class="img2" src="https://images-na.ssl-images-amazon.com/images/I/914CT7iyyvL.jpg">
+
+                </div>
+
+            </section>
+
+            <br>
+            <br>
+            <hr style="width: 100%;">
+
+
+
+            <section id="slides">
+                <h2>Sliding gallary</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+
+                    </ol>
+
+
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg" alt="Captain America" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harry potter and the philosopher's stone</h3>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/91HHqVTAJQL.jpg" alt="Black Panther" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harry potter and the chamber of secrets</h3>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/91uix57X+jL.jpg" alt="Hulk" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harry potter and the prisnor of azkaban</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg" alt="Ironman" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harry potter and the goblet of fire</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/81yheYBjiuL.jpg" alt="Thanos" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>THarry potter and order of the phoenix</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/91YH0ZtB9XL.jpg" alt="Thor" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harry potter and the half blood prince</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/914CT7iyyvL.jpg" alt="Gamora" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harry Potter and the deathly Hallows</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <hr style="width: 100%;">
+    </div>
+
+</body>
+
+</html>
